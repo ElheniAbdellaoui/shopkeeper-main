@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap');
+
+.form > h1 {
+  font-family: Dancing Script;
+}
+
+.form > form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50vh;
+}
+form > input {
+  width: 50vh;
+  height: 4vh;
+  border: 1px solid deepskyblue;
+  border-radius: 3px;
+  font-size: 15px;
+}
+form > button {
+  background-color: deepskyblue;
+  color: white;
+  width: 11vh;
+  height: 5vh;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+form > button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+label {
+  font-size: 25px;
+  margin-right: 50%;
+}
+
+.form > .sign-in {
+  height: 30vh;
+}

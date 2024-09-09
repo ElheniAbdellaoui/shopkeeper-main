@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap');
+
+.footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: sticky;
+  margin-top: auto;
+  bottom: 0;
+  top: 100%;
+  width: 100%;
+  height: fit-content;
+  background: black;
+}
+
+.ft1 {
+  font-family: Dancing Script;
+  color: deepskyblue;
+  margin-left: 2%;
+  text-align: center;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: x-small;
+}
+
+.ft-links {
+  width: 30%;
+  align-items: center;
+  /* margin-top: 2%; */
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ft-link {
+  color: white;
+  text-decoration: none;
+}
+
+.ft-link:hover {
+  color: deepskyblue;
+}
+
+.icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.icons > :hover {
+  color: deepskyblue;
+}

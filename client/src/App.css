@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}

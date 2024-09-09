@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap');
+
+.one {
+  top: 0%;
+  margin-bottom: 50px;
+  height: 60vh;
+  width: 100%;
+  background-color: deepskyblue;
+}
+
+.one > h1 {
+  font-family: Dancing Script;
+  font-size: 10vh;
+  margin-top: 50px;
+  color: white;
+}

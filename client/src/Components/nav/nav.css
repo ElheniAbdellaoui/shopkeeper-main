@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap');
+.nav {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 9vh;
+  align-items: center;
+}
+.nav > span {
+  color: deepskyblue;
+  margin-left: 2%;
+  font-size: xx-large;
+  font-family: Dancing Script;
+}
+
+#logo {
+  color: deepskyblue;
+}
+
+.links {
+  width: 30%;
+  /* align-items: center; */
+  /* margin-top: 2%; */
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: deepskyblue;
+}
