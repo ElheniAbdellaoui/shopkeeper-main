@@ -1,4 +1,4 @@
 {
-    "db":"mongodb+srv://ahmed:1010@cluster0.kanco.gcp.mongodb.net/shopkeeper?retryWrites=true&w=majority",
+    "db":"mongodb+srv://hani:1010@cluster0.kanco.gcp.mongodb.net/shopkeeper?retryWrites=true&w=majority",
     "secret":"shhh"
 }
